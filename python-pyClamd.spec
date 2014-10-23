@@ -48,6 +48,8 @@ software in an efficient and easy way.
 %prep
 %setup -q -n %{module}-%{version}
 
+sed -i -e 's#/etc/clamav/clamd.conf#/etc/clamd.conf#g' README.txt pyclamd/pyclamd.py
+
 %build
 %if %{with python2}
 %{__python} setup.py build --build-base build-2 %{?with_tests:test}
