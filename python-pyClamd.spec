@@ -15,7 +15,7 @@ Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/p/pyClamd/%{module}-%{version}.tar.gz
 # Source0-md5:	370d7c12da34376eca730aea193a8712
 URL:		http://xael.org/norman/python/pyclamd/
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %if %{with python2}
 BuildRequires:	python-devel
 BuildRequires:	python-distribute
