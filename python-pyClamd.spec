@@ -9,7 +9,7 @@ Summary:	A python interface to Clamd (Clamav daemon)
 # Name must match the python module/package name (as in 'import' statement)
 Name:		python-%{module}
 Version:	0.3.10
-Release:	4
+Release:	5
 License:	- (enter GPL/GPL v2/GPL v3/LGPL/BSD/BSD-like/other license name here)
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/p/pyClamd/%{module}-%{version}.tar.gz
